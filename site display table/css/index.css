@@ -1,0 +1,95 @@
+.table{
+    width: 100vw;
+    border: 1px solid red;
+    background-color: rgb(98, 75, 75);
+    
+}
+
+.head{
+    text-align:center;
+}
+
+.head h1{
+    color: yellow;
+    font-size: 50px;
+    
+}
+.head p{
+    color: white;
+    font-size: 20px;
+}
+.mainmenu{
+    
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+    padding: 20px;
+   
+    
+}
+.mainmenu a{
+    color: black;
+    margin: 0px 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.mainmenu a:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.left{
+    border:1px solid orange; ;
+    width:20vw;
+    text-align: center;
+}
+.center{
+    background-color: rgb(186, 186, 186);
+    border:1px solid orange; ;
+    width:60vw
+}
+.right{
+    text-align: center;
+    border:1px solid orange; ;
+    width:20vw
+}
+
+.orange_font{
+    color: orange;
+}
+.left h3{
+    color: greenyellow;
+}
+.left p{
+    color: white;
+}
+.right h2{
+    color: orange;
+}
+
+.right p{
+    color: white;
+}
+
+.center h1{
+    color: red;
+    text-align: center;
+}
+.center p{
+    font-size: 20px;
+    margin: 40px;
+
+}
+.footer{
+    text-align: center;
+    height: 300px;
+    width: 100vw;
+
+}
+.footer p{
+    color: blueviolet;
+    text-align: center;
+    width: 100vw;
+}

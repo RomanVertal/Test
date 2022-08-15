@@ -1,0 +1,49 @@
+table{
+    width: 100%;
+}
+
+.menu{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.left{
+    width: 20%;
+    text-align: center;
+}
+.left h2{
+    color: yellow;
+}
+.left h3{
+    color: rgb(0, 255, 0);
+}
+.left p{
+    color: white;
+}
+
+.center{
+    width: 60%;
+    background-color: white;
+    padding: 40px;
+
+}
+.center p{
+    font-size: 30px;
+}
+
+
+
+
+
+.right{
+    width: 20%;
+    text-align: center;
+}
+.right h2{
+    color: yellow;
+}
+.right p{
+    color: white;
+}
