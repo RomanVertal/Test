@@ -1,0 +1,89 @@
+#pos{
+    width: 500px;
+    height: 1500px;
+    background-color: aqua;
+    position: static;
+}
+
+#pos2{
+    width: 500px;
+    height: 500px;
+    background-color: yellowgreen;
+    position: relative;
+    top:-1000px;
+    bottom:;
+    left:500px ;
+    right: ;
+}
+
+#pos3{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    top: ;
+    left: 400px;
+    z-index: 1;
+}
+
+#pos4{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#pos5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(157, 130, 238);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header{
+    border: 1px solid red;
+}
+
+#flex{
+    width: 40vw;
+    height: 600px;
+    background-color: rgb(255, 0, 221);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+#flex .flex1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 50, 50);
+    flex: 1 3 200px;
+    
+
+}
+#flex .flex2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 197, 50);
+    align-self: center;
+    flex-grow: 2;
+    flex-shrink: 3;
+    
+
+}
+#flex .flex3{
+    
+    height: 100px;
+    background-color: rgb(71, 205, 50);
+    flex-grow: 1;
+    flex-shrink:0;
+    flex-basis: 300px;
+    
+    
+
+}

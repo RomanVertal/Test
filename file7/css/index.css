@@ -1,0 +1,19 @@
+input[type="text"]{
+    background-color: rgb(164, 255, 255);
+    border: 1px solid red;
+}
+
+input{
+    cursor: pointer;
+}
+
+}
+form{
+    border: 1px solid red;
+}
+
+textarea{
+    resize: none;
+    width: 500px;
+    height: 200px;
+}

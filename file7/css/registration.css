@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(143, 79, 207);
+    margin: 0;
+}
+
+.form{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    height: 1000px;
+    background-color: rebeccapurple;
+}
+.block{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    
+}
+
+div{
+   
+    margin: 10px;
+    text-align: center;
+}
+.label{
+    text-align: left;
+}
+

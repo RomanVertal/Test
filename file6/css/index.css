@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    
+}
+
+#main>.main:last-child div{
+    border: 1px solid red;
+}
+
+#main::before{
+    content: "before";
+}
+#main::after{
+    content: "after";
+    background-color: aqua;
+}
+#a1::first-line{
+    color: aqua;
+}
